@@ -1,0 +1,37 @@
+{
+  "name": "api-photos",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Una api rest",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCaucaman/API-photos.git"
+  },
+  "keywords": [
+    "API",
+    "NODEJS",
+    "ExpressJS"
+  ],
+  "author": "Jorge Francisco José Cárcamo Caucamán - JCaucaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCaucaman/API-photos/issues"
+  },
+  "homepage": "https://github.com/JCaucaman/API-photos#readme",
+  "dependencies": {
+    "express": "4.19.2",
+    "multer": "1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
